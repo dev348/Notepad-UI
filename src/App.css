@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+/* General Styles */
+body {
+  background-color: #f4f7f6; /* Light background for contrast */
+  color: #333; /* Dark text for readability */
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar Styles */
+.navbar {
+  background-color: #8bc34a; /* Light green background */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link {
+  color: #fff !important; /* White text for links */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link:hover {
+  color: #f4f7f6 !important; /* Slightly lighter green on hover */
 }
 
-.App-link {
-  color: #61dafb;
+/* Form and Button Styles */
+.form-label {
+  font-weight: bold; /* Bold labels */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.btn-primary {
+  background-color: #66bb6a; /* Light green buttons */
+  border-color: #66bb6a;
+}
+
+.btn-primary:hover {
+  background-color: #57a05a; /* Slightly darker green on hover */
+  border-color: #57a05a;
+}
+
+/* Note List Styles */
+.card {
+  margin-bottom: 20px; /* Spacing between cards */
+}
+
+.card-title {
+  color: #333; /* Dark color for titles */
+}
+
+/* Additional Spacing and Alignment */
+.container {
+  padding-top: 20px;
+}
+
+/* Custom Input Styles */
+.input, .textarea {
+  border: 1px solid #ccc; /* Light border for inputs */
+  border-radius: 4px; /* Rounded borders */
+  padding: 10px; /* Spacing inside inputs */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+      text-align: center;
   }
 }
